@@ -68,7 +68,9 @@ a:hover{
   opacity: 1;
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (min-device-width: 200px) 
+  and (max-device-width: 319px)
+  and (-webkit-min-device-pixel-ratio: 2){
   .hero-text{
     font-size:1.8rem;
 }
