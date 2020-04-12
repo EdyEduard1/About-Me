@@ -71,7 +71,15 @@ a:hover{
 @media screen and (min-device-width: 200px) 
   and (max-device-width: 319px)
   and (-webkit-min-device-pixel-ratio: 2){
-  .hero-text{
+  
+    .wrapper{
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+}
+    
+    
+    .hero-text{
     font-size:1.8rem;
 }
   
@@ -96,7 +104,11 @@ a:hover{
 @media screen and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-  
+  .wrapper{
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+}
     
   .hero-text{
     font-size:2rem;
